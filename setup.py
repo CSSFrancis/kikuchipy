@@ -142,7 +142,7 @@ setup(
         "dask[array]        >= 2021.8.1",
         "diffpy.structure   >= 3",
         "diffsims           >= 0.5",
-        "hyperspy           >= 1.7.1",
+        "hyperspy           >= 2.0rc0",
         "h5py               >= 2.10",
         "matplotlib         >= 3.3",
         "numba              >= 0.48",

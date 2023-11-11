@@ -19,8 +19,9 @@ import os
 from pathlib import Path
 from typing import List, Optional, Union
 
-from hyperspy.io_plugins import hspy
-from hyperspy.misc.io.tools import overwrite as overwrite_method
+import rsciio.hspy._api as hspy
+from rsciio.utils.tools import overwrite as overwrite_method
+
 from hyperspy.misc.utils import strlist2enumeration, find_subclasses
 from hyperspy.signal import BaseSignal
 from h5py import File, is_hdf5, Group

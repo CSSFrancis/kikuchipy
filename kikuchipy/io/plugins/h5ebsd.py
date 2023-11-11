@@ -25,7 +25,7 @@ import warnings
 import dask.array as da
 from hyperspy.misc.utils import DictionaryTreeBrowser
 from hyperspy.exceptions import VisibleDeprecationWarning
-from hyperspy.io_plugins.hspy import overwrite_dataset
+from rsciio.hspy._api import overwrite_dataset
 import h5py
 import numpy as np
 

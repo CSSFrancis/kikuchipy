@@ -21,7 +21,7 @@ from typing import Union, Tuple, Optional
 from dask.diagnostics import ProgressBar
 import hyperspy.api as hs
 from hyperspy._signals.signal2d import Signal2D
-from hyperspy.misc.rgb_tools import rgb_dtypes
+from rsciio.utils.rgb_tools import rgb_dtypes
 from hyperspy.api import preferences
 import numpy as np
 from skimage.util.dtype import dtype_range
